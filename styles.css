@@ -3,6 +3,7 @@
 :root {
 	--primary-color: #f33a3a;
 	--dark-gray: #71717a;
+	--off-white: #f3f4f6;
 }
 
 body {
@@ -98,4 +99,17 @@ hr {
 
 .hero .hero-heading .heading-intensified {
 	color: var(--primary-color);
+}
+
+/* section */
+.section {
+	padding: 2rem;
+}
+
+.section h1 {
+	text-align: center;
+}
+
+.ow {
+	background-color: var(--off-white);
 }
