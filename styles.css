@@ -34,6 +34,7 @@ hr {
 
 .link {
 	/* box-sizing: border-box; */
+	color: var(--primary-color);
 	text-decoration: none;
 	padding: 0.5rem 1rem;
 	/* margin-top: 1rem;
@@ -69,6 +70,7 @@ hr {
 	color: var(--primary-color);
 	padding: 1rem;
 	border-bottom-left-radius: 1rem;
+	letter-spacing: 1px;
 }
 
 .navigation .nav-brand {
@@ -81,7 +83,7 @@ hr {
 }
 
 .navigation .link {
-	color: white;
+	color: var(--primary-color);
 }
 
 .navigation .link-active {
