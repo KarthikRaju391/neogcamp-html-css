@@ -56,6 +56,9 @@ hr {
 
 .list-no-bullet {
 	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .list-item-inline {
@@ -88,6 +91,12 @@ hr {
 
 .navigation .link-active {
 	font-weight: bold;
+}
+
+.nav-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 /* header */
